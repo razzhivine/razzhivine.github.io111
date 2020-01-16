@@ -323,6 +323,9 @@ a:hover{
   padding: 12px 0 12px 24px;
   color: #262626;
 }
+.drop_block .block_list .list_item:hover {
+    text-decoration: underline;
+}
 .drop_block .block_sitemap{
   text-transform: uppercase;
   background: #e6e6e6;
