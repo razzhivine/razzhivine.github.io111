@@ -53,7 +53,7 @@ a:hover{
   top: 17px;
   width: 100%;
 } */
-.header .nav_list .nav_item:hover span {
+.header .nav_list .nav_item:hover>span {
   border-bottom: 2px solid;
   margin: 0 0 -2px 0;
 }
