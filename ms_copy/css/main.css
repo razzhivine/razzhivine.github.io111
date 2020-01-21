@@ -86,7 +86,7 @@ a:hover{
   position: absolute;
   bottom:16px;
   margin: 0 auto;
-  left: 53.4%;
+  left: 51%;
   font-size: 11px;
 }
 .slider .banner .slider_controls i:hover {
@@ -160,7 +160,7 @@ a:hover{
 }
 .banner .banner_block .banner_description{
   position: absolute;
-  top: 35%;
+  top: 28%;
   left: 6%;
   max-width: 440px;
 }
@@ -373,7 +373,7 @@ a:hover{
 .slick-dots {
   bottom: 70px;
   width: auto;
-  left: 49%;
+  left: 47%;
 }
 .slick-dots li {
   margin: 0;
@@ -527,7 +527,11 @@ input::placeholder {
   }
 }
 
-
+@media (min-width:1084px) and (max-width:1399px){
+  .banner .banner_block .banner_description-center {
+    top: 53%;
+  }
+}
 @media (max-width: 1083px) {
   .block .block_list {
     flex-wrap: wrap;
@@ -550,7 +554,9 @@ input::placeholder {
   .drop_block .block_list{
     width: 20%;
   }
-
+  .banner .banner_block .banner_description {
+    top: 35%;
+  }
 }
 @media (max-width: 1023px) {
   .drop_block .block_list{
@@ -681,9 +687,9 @@ input::placeholder {
   .slick-dots {
     left: 45%;
   }
-  .slider .slider_controls i {
+  /* .slider .slider_controls i {
     left: 51.4%;
-  }
+  } */
 }
 @media (max-width: 539px) {
   .block .block_list .block_item{
@@ -695,9 +701,9 @@ input::placeholder {
   .slick-dots {
     left: 43%;
   }
-  .slider .slider_controls i {
+  /* .slider .slider_controls i {
     left: 52.4%;
-  }
+  } */
 }
 @media (max-width: 359px) {
   .slider .banner .banner_block .banner_description {
