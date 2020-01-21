@@ -3,6 +3,7 @@ body{
   font-family: 'PT Sans', 'sans-serif';
   margin: 0;
 }
+
 img{
   width: 100%;
   height: auto;
@@ -74,8 +75,29 @@ a:hover{
 .header .nav_list {
   padding: 0 0 3px 0;
 }
-
-
+.slider {
+  position: relative;
+}
+.slider .slider_controls {
+  position: absolute;
+  bottom: 74px;
+  margin: 0 auto;
+  left: 52.4%;
+  font-size: 11px;
+}
+.slider  .slider_controls i{
+  padding: 12px 14px;
+}
+.slider  .slider_controls i:hover {
+  color: #fff;
+  background: #000;
+}
+.slider div .fa-pause{
+  display: inline;
+}
+.slider div .fa-play{
+  display: none;
+}
 /* .block {
   margin: 0 0 48px 0;
 } */
@@ -397,6 +419,9 @@ a:hover{
   background: #2e2e2e;
   box-shadow: 0 4px 8px rgba(0,0,0,.2);
 }
+.slick-dots li.slick-active button:before{
+  color: #333;
+}
 .wrap{
    margin: 0 auto;
   z-index: 100;
@@ -466,6 +491,9 @@ input::placeholder {
   display: none;
   position: absolute;
   left: -29px;
+}
+.fa, .fas{
+  color: #333;
 }
 @media (max-width: 1599px) {
 
