@@ -1,19 +1,26 @@
 $('.single-slick').slick({
   // slidesToShow: 1,
   infinite: true,
-  // autoplay: true,
-  // autoplaySpeed: 2000,
+  autoplay: true,
+  autoplaySpeed: 2000,
   slidesToScroll: 1,
   arrows: true,
   fade: true,
   dots: true,
   // asNavFor: '.slider-nav'
 });
-$('.btnPause').on('click', function () {
-  $('.single-slick').slickPause();
+$(".fa-pause").click(function(){
+  $('.single-slick').slick('slickPause');
+  $(".fa-play").show();
+  $(".fa-pause").hide();
+  console.log("pause");
 });
-$('.btnStart').on('click', function () {
-  $('.single-slick').slickPlay();
+$('.fa-play').on('click', function () {
+  $('.single-slick').slick('slickPlay');
+  $(".fa-pause").show();
+  $(".fa-play").hide();
+  console.log("play");
+
 });
 var res = $(".drop_block");
 
