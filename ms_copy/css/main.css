@@ -79,19 +79,26 @@ a:hover{
   position: relative;
 }
 .slider .slider_controls {
-  position: absolute;
-  bottom: 74px;
-  margin: 0 auto;
-  left: 52.4%;
-  font-size: 11px;
+
 }
 .slider  .slider_controls i{
   padding: 12px 14px;
+  position: absolute;
+  bottom:16px;
+  margin: 0 auto;
+  left: 53.4%;
+  font-size: 11px;
 }
-.slider  .slider_controls i:hover {
+.slider .banner .slider_controls i:hover {
   color: #fff;
   background: #000;
 }
+.slider .banner-white .slider_controls i:hover {
+  color: #000;
+  background: #fff;
+}
+
+
 .slider div .fa-pause{
   display: inline;
 }
@@ -365,6 +372,8 @@ a:hover{
 }
 .slick-dots {
   bottom: 70px;
+  width: auto;
+  left: 50%;
 }
 .slick-dots li {
   margin: 0;
