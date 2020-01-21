@@ -661,6 +661,7 @@ input::placeholder {
     left: 36px;
     right: 16px;
   }
+
 }
 @media (max-width: 767px) {
   .banner .banner_block .banner_description{
@@ -673,9 +674,15 @@ input::placeholder {
     position: static;
     max-width: 100%;
     text-align: center;
-    padding: 15% 5% 15%;
+    padding: 15% 5% 24%;
     margin: -4px 0 0 0;
     height: 130px;
+  }
+  .slick-dots {
+    left: 45%;
+  }
+  .slider .slider_controls i {
+    left: 51.4%;
   }
 }
 @media (max-width: 539px) {
@@ -685,11 +692,20 @@ input::placeholder {
   .footer .footer_menulist .menu_list{
     width: 100%;
   }
+  .slick-dots {
+    left: 43%;
+  }
+  .slider .slider_controls i {
+    left: 52.4%;
+  }
 }
 @media (max-width: 359px) {
   .slider .banner .banner_block .banner_description {
     padding: 15% 5% 30%;
   }
+  /* .slider .slider_controls i {
+    left: 60.4%;
+  } */
 }
 /* .header , 
 .slider,
